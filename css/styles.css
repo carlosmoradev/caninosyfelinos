@@ -1,0 +1,169 @@
+html body {
+  color: blu;
+  /*height: 100%;
+  width: 100%*/
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+header{
+  /*background: url(../imagenes/fondoLogo.jpg) no-repeat fixed center;
+  background-size: auto;*/
+  }
+
+nav{
+text-align: center;
+background: rgba(31, 17, 16, 0.9);
+padding: 0;
+margin: 0;
+position: fixed;
+width: 100%;
+color: white;
+
+}
+/*#columnas h2{
+  margin: 0;
+}*/
+
+nav ul {
+
+  vertical-align: top;
+  /*text-decoration: none;*/
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a {
+
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  /*background: peru;*/
+  border-image-slice: 1;
+  margin: 0 2em;
+  padding: 0.5em 50px;
+}
+footer{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#principal{
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  width: 100%;
+
+  /*background: url(../imagenes/fondoLogo.jpg) no-repeat fixed center;
+  background-size: auto;*/
+
+}
+
+#cabecera{
+  margin: 0;
+  padding: 0;
+  background: url(../imagenes/fondoLogo.jpg) center;
+  background-repeat: no-repeat;
+  /*width: 100%;*/
+  height:  400px;
+}
+#productos {
+  margin: 0;
+  padding: 0;
+  background: url(../imagenes/fondoProductos.jpg) center;
+  background-repeat: no-repeat;
+  /*width: 100%;*/
+  height:  400px;
+}
+#servicios {
+  margin: 0;
+  padding: 0;
+  background: url(../imagenes/fondoServicios.jpg) center;
+  background-repeat: no-repeat;
+  /*width: 100%;*/
+  height:  400px;
+}
+#guarderia {
+  margin: 0;
+  padding: 0;
+  background: url(../imagenes/fondoGuarderia.png) center;
+  background-repeat: no-repeat;
+  /*width: 100%;*/
+  height:  400px;
+}
+#promociones {
+  margin: 0;
+  padding: 0;
+  background: url(../imagenes/fondoPromociones.jpg) center;
+  background-repeat: no-repeat;
+  /*width: 100%;*/
+  height:  400px;
+}
+
+#logo{
+  margin-left: 0;
+  margin-top: 2.5em;
+  /*padding-bottom: 300px;*/
+
+}
+#columnas{
+border-radius: 0.5em;
+color: black;
+padding: 0;
+margin: 0;
+overflow: hidden;
+display: inline-flex;
+vertical-align: top;
+/*width: 21%;*/
+}
+#titPortada{
+  color: olive;
+  text-align: center;
+}
+#titPortada img{
+  width: 1em;
+  color: olive;
+}
+.header {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+/*background-color: peru;*/
+}
+
+.col{
+  /*border-color: red;*/
+  padding: 1em;
+  text-align: justify;
+}
+
+.intro-logo{
+padding: 0;
+margin: 0;
+height: 100%;
+/*width: 100%;*/
+/*background: url(../imagenes/fondoLogo.jpg) no-repeat fixed center;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;*/
+}
+
+.menu {
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  /*text-decoration: none;*/
+}
+
+.boton {
+  text-decoration: none;
+  padding-left: 20%;
+  padding-right: 20%;
+}
