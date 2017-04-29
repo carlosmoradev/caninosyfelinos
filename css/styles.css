@@ -113,7 +113,6 @@ footer{
 
 }
 #columnas{
-border-radius: 0.5em;
 color: black;
 padding: 0;
 margin: 0;
@@ -122,10 +121,63 @@ display: inline-flex;
 vertical-align: top;
 /*width: 21%;*/
 }
-#titPortada{
+#columnas h2{
   color: olive;
   text-align: center;
 }
+#columnas ul{
+  list-style: none;
+}
+/*#columnas li{
+  margin: 0;
+  padding: 0;
+}*/
+
+#columna1, #columna2, #columna3{
+  width: 22%;
+}
+
+#columna4{
+  margin: 2em;
+  padding: 0 2em;
+  background: rgba(0,0,0,0.1);
+  border-radius: 3em;
+  border-color: olive;
+}
+
+
+#formulario{
+  margin: 0;
+  padding: 0;
+}
+#formulario label{
+  width: 4em;
+  margin: 0;
+  display: inline-block;
+  float: left;
+  padding: 0;
+}
+#formulario input {
+  margin: 0;
+  height: 20px;
+  width: 160px;
+  padding: 5px 8px;
+  border-radius: 0.5em;
+}
+input, label{
+  margin-left: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  outline-color: peru;
+}
+
+#validarCita{
+  margin: 1em;
+  display: block;
+  margin: 0 auto;
+}
+
 #titPortada img{
   width: 1em;
   color: olive;
@@ -160,10 +212,4 @@ background-repeat: no-repeat;*/
   display: inline-block;
   margin: 0;
   /*text-decoration: none;*/
-}
-
-.boton {
-  text-decoration: none;
-  padding-left: 20%;
-  padding-right: 20%;
 }
