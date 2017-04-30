@@ -133,13 +133,13 @@ vertical-align: top;
   padding: 0;
 }*/
 
-#columna1, #columna2, #columna3{
+#colPortada1, #colPortada2, #colPortada3{
   width: 22%;
 }
 
-#columna4{
+#colPortada4{
   margin: 2em;
-  padding: 0 2em;
+  padding: 0 ;
   background: rgba(0,0,0,0.1);
   border-radius: 3em;
   border-color: olive;
@@ -150,13 +150,18 @@ vertical-align: top;
   margin: 0;
   padding: 0;
 }
-#formulario label{
-  width: 4em;
+#formulario li{
+  margin: 0.5em;
+}
+
+label{
   margin: 0;
   display: inline-block;
-  float: left;
+  /*float: left;*/
   padding: 0;
+  width: 25%;
 }
+
 #formulario input {
   margin: 0;
   height: 20px;
@@ -164,18 +169,12 @@ vertical-align: top;
   padding: 5px 8px;
   border-radius: 0.5em;
 }
-input, label{
-  margin-left: 0;
-  padding: 0;
-  display: inline-block;
-  vertical-align: top;
-  outline-color: peru;
-}
 
 #validarCita{
   margin: 1em;
   display: block;
   margin: 0 auto;
+  border-radius: 0.5em;
 }
 
 #titPortada img{
