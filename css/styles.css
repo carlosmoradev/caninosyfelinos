@@ -113,7 +113,7 @@ footer{
   margin-top: 2.5em;
 }
 
-#cuidadoMascota{
+.imgComplemento{
   float: left;
   margin: 5px;
   width: 50%;
@@ -173,10 +173,13 @@ vertical-align: top;
   border-radius: 0.5em;
 }
 
-.titPortada img{
+.iconoh2{
   width: 1em;
-  color: olive;
+  margin: 0;
+  padding-right: 0.5em ;
+
 }
+
 .header {
   padding: 0;
   margin: 0;
