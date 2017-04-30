@@ -1,10 +1,28 @@
-header{
-  /*background: url(../imagenes/fondoLogo.jpg) no-repeat fixed center;
-  background-size: auto;*/
-  }
+footer{
+  text-align: center;
+  margin: 0 2em;
+  padding: 0.3em;
+  /*background-color: rgba(85,107,47,0.5);*/
+  border-radius: 1em;
+  background-image: url(../imagenes/Logo.png);
+  background-repeat: no-repeat;
+  background-position: right 10px bottom;
+  background-size: 10em auto;
+
+}
+
+footer p{
+  margin: 0;
+  padding: 2px;
+  /*background-color: rgba(85,107,47,0.5);
+  border-radius: 1em;
+  background-image: url(../imagenes/Logo.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 15em auto;*/
+}
 
 html body {
-  color: blu;
   margin: 0;
   padding: 0;
   font-family: arial;
@@ -51,11 +69,7 @@ nav ul li a {
   margin: 0 2em;
   padding: 0.5em 50px;
 }
-footer{
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
+
 #principal{
   margin: 0;
   padding: 0;
@@ -109,6 +123,21 @@ footer{
   margin-top: 2.5em;
 }
 
+
+
+#colPortada1, #colPortada2, #colPortada3{
+  width: 22%;
+}
+
+#colPortada4{
+  margin: 2em;
+  padding: 0 ;
+  background: rgba(0,0,0,0.1);
+  border-radius: 3em;
+  border-color: olive;
+  box-shadow: 5px 5px 10px olive;
+}
+
 #columnas{
 color: black;
 padding: 0;
@@ -125,19 +154,6 @@ vertical-align: top;
 #columnas ul{
   list-style: none;
 }
-
-#colPortada1, #colPortada2, #colPortada3{
-  width: 22%;
-}
-
-#colPortada4{
-  margin: 2em;
-  padding: 0 ;
-  background: rgba(0,0,0,0.1);
-  border-radius: 3em;
-  border-color: olive;
-}
-
 
 #formulario{
   margin: 0;
@@ -184,20 +200,26 @@ vertical-align: top;
   float: left;
   margin: 5px;
   width: 50%;
+  border-radius: 1em;
+  box-shadow: 0.2em 0.5em 20px olive;
 }
 
 
 .imgContenido{
   float: left;
   margin: 0 1em 0 0;
-  width: 30%;
-}
-.imgContenido2{
-  float: right;
-  margin: 0 0 0 2em;
-  width: 30%;
 }
 
+.imgContenido2{
+  float: right;
+  margin: 0 0 0 1em;
+}
+
+.imgContenido, .imgContenido2{
+  width: 30%;
+  border-radius: 2em;
+  box-shadow: 10px 10px 5px olive;
+}
 
 .intro-logo{
 padding: 0;
