@@ -1,15 +1,14 @@
-html body {
-  color: blu;
-  /*height: 100%;
-  width: 100%*/
-  margin: 0;
-  padding: 0;
-  font-family: arial;
-}
 header{
   /*background: url(../imagenes/fondoLogo.jpg) no-repeat fixed center;
   background-size: auto;*/
   }
+
+html body {
+  color: blu;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
 
 label{
   margin: 0;
@@ -28,9 +27,6 @@ width: 100%;
 color: white;
 
 }
-/*#columnas h2{
-  margin: 0;
-}*/
 
 nav ul {
 
@@ -113,12 +109,6 @@ footer{
   margin-top: 2.5em;
 }
 
-.imgComplemento{
-  float: left;
-  margin: 5px;
-  width: 50%;
-}
-
 #columnas{
 color: black;
 padding: 0;
@@ -173,11 +163,9 @@ vertical-align: top;
   border-radius: 0.5em;
 }
 
-.iconoh2{
-  width: 1em;
-  margin: 0;
-  padding-right: 0.5em ;
-
+.col{
+  padding: 1em;
+  text-align: justify;
 }
 
 .header {
@@ -186,10 +174,30 @@ vertical-align: top;
   list-style: none;
 }
 
-.col{
-  padding: 1em;
-  text-align: justify;
+.iconoh2{
+  width: 1em;
+  margin: 0;
+  padding-right: 0.5em ;
 }
+
+.imgComplemento{
+  float: left;
+  margin: 5px;
+  width: 50%;
+}
+
+
+.imgContenido{
+  float: left;
+  margin: 0 1em 0 0;
+  width: 30%;
+}
+.imgContenido2{
+  float: right;
+  margin: 0 0 0 2em;
+  width: 30%;
+}
+
 
 .intro-logo{
 padding: 0;
