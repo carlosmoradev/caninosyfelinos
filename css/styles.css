@@ -40,10 +40,11 @@ nav{
 }
 
 nav ul {
-  vertical-align: top;
   list-style: none;
+  margin: 0 2px;
   padding: 0;
-  margin: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav ul li{
